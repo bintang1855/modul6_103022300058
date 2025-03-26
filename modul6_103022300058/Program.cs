@@ -42,5 +42,13 @@ class Program
         user.PrintAllVideoPlaycount();
 
         Console.WriteLine("Total menonton: "+ user.GetTotalVideoPlayCount());
+        Console.WriteLine();
+        Console.WriteLine("Pengetesan");
+        video10.IncreasePlayCount(25000000);
+
+        
+
+
+
     }
 }
